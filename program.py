@@ -1,20 +1,20 @@
-inventory = []
-name = input("Hej vad heter du?")
-greeting = "Välkommen till min värld [name]. Du vaknar upp efter en lång natts sömn"
-greeting = greeting.replace("[name]", name)
-print(greeting)
-print("Mystiskt nog finner du dig i en hamsters kropp, där du löper över ängarna i jakt på en gyllene maskros.")
-print("Du rycker till och fryser i din tanke, tittar du på [maskrosen], eller din mystiska [hamster]-kropp")
-choice = input("vad väljer du").lower()
-if "hamster" in choice:
-    print("I drömlik slowmotion beundrar du den fantastiska fluffigheten, dina sinnen förnimmer havre och damm")
-elif "maskros" in choice:
-    print("Du skriker inombords som den maskrosallergiker du är, prosit, du stoppar maskrosen i din hamsterpåse")
-    inventory.append("maskros")
-else:
-    print("stavning är inte din starka gren, du fortsätter...")
+#from math import *
+initiate = True
+count = 0
+while initiate == True:
+    count += 1
 
-print("I panik tänker du hur du ska hinna till skolbussen")
-buss = input("Vad gör du? börjar [springa] mot vägen eller samla dina [tankar]?")
-if buss == "springa":
-    x1
+    if "7" in str(count) or "11" in str(count) or count % 7 == 0 or count % 11 == 0:
+        print("klappa")
+    else:
+        print(count)
+    
+
+    # for counts in str(count):
+    #     if("7" in counts):
+    #         print("skip")
+    # for counts in str(count):
+    #     if("11" in counts):
+    #         print("skip")
+
+
